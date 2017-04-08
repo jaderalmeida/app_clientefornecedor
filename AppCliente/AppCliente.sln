@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AppCliente", "AppCliente\AppCliente\AppCliente.shproj", "{1C49E1B5-1604-45C2-9291-7B9C4681422C}"
 EndProject
@@ -14,6 +14,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		AppCliente\AppCliente\AppCliente.projitems*{1c49e1b5-1604-45c2-9291-7b9c4681422c}*SharedItemsImports = 13
+		AppCliente\AppCliente\AppCliente.projitems*{591d389f-1175-4e70-b360-92c53305a2c1}*SharedItemsImports = 4
 		AppCliente\AppCliente\AppCliente.projitems*{928650f5-34bb-44c0-927d-34ab1703123a}*SharedItemsImports = 4
 		AppCliente\AppCliente\AppCliente.projitems*{c52c9565-5403-41da-8718-5c09233e387a}*SharedItemsImports = 4
 	EndGlobalSection
