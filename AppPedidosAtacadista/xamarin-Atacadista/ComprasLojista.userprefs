@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{FAD492D2-D362-4CBA-B453-CC047CFEE7CA}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestDrive.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestDrive/TestDrive.Aula8/App.xaml">
+    <Files>
+      <File FileName="TestDrive/TestDrive.Droid/MainActivity.cs" Line="27" Column="1" />
+      <File FileName="TestDrive/TestDrive.Aula8/App.xaml.cs" Line="8" Column="20" />
+      <File FileName="TestDrive/TestDrive.Aula8/App.xaml" Line="4" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

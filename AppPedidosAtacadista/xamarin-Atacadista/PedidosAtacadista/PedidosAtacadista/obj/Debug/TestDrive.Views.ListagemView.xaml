@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TestDrive"
+             xmlns:vm="clr-namespace:TestDrive.ViewModels"
+             Title="Pedidos de Compra"
+             x:Class="TestDrive.Views.ListagemView">
+	
+    <StackLayout Margin="25">
+		 <Button x:Name="buttonProximo" Text="Novo" 
+        Command="{Binding ProximoCommand}"
+		Clicked="OnButtonClicked"
+        VerticalOptions="End"></Button>
+		
+        <ActivityIndicator IsRunning="{Binding Aguarde}"
+                           IsVisible="{Binding Aguarde}">            
+        </ActivityIndicator>
+       
+        <ListView x:Name="listViewVeiculos" ItemsSource="{Binding Veiculos}" 
+                  SelectedItem="{Binding VeiculoSelecionado}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="PC:" VerticalTextAlignment="Center"></Label>
+                                <Label Text="{Binding PrecoFormatado}" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+
+                                <Label Text=" Forne.:" VerticalTextAlignment="Center"></Label>
+                                <Label Text="{Binding Nome}" VerticalTextAlignment="Center"></Label>
+
+                                <Label Text=" Status:" VerticalTextAlignment="Center"></Label>
+                                <Label Text=" Pend." VerticalTextAlignment="Center"></Label>
+								
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

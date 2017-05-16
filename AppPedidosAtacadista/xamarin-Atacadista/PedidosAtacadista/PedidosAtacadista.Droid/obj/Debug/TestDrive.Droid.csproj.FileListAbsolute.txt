@@ -1,0 +1,1 @@
+/Users/yghorpereira/Documents/xamarin-Lojista/TestDrive/TestDrive.Droid/obj/Debug/TestDrive.Droid.csproj.CoreCompileInputs.cache

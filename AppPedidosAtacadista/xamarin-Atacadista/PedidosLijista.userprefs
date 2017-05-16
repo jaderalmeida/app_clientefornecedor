@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{FAD492D2-D362-4CBA-B453-CC047CFEE7CA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PedidosLogista/PedidosLogista/Models/Pedido.cs">
+    <Files>
+      <File FileName="PedidosLogista/PedidosLogista.Droid/Resources/Resource.Designer.cs" Line="58" Column="4" />
+      <File FileName="PedidosLogista/PedidosLogista/Models/Pedido.cs" Line="20" Column="4" />
+      <File FileName="PedidosLogista/PedidosLogista.Droid/MainActivity.cs" Line="6" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PedidosLojista.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

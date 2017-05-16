@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="PedidosAtacadista.Views.DetalhePedidosView"
+    xmlns:local="clr-namespace:TestDrive"
+    Title="Pedido de Compra">
+
+     <StackLayout Margin="25">
+        <ActivityIndicator IsRunning="{Binding Aguarde}"
+                           IsVisible="{Binding Aguarde}">            
+        </ActivityIndicator>
+          <Label Text="Fornecedor:" VerticalTextAlignment="Center"></Label>
+          <Label Text="{Binding Nome}" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+
+        <Label Text="Itens:" VerticalTextAlignment="Center"></Label>
+        <ListView x:Name="listViewPedidos" ItemsSource="{Binding Pedido}" 
+                  SelectedItem="{Binding PedidoSelecionado}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Codigo:" VerticalTextAlignment="Center"></Label>
+                                <Label Text="{Binding Codigo}" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+
+                                <Label Text=" Qntd.:" VerticalTextAlignment="Center"></Label>
+                                <Label Text="{Binding Quantidade}" VerticalTextAlignment="Center"></Label>
+
+                                <Label Text=" Preco.:" VerticalTextAlignment="Center"></Label>
+                                <Label Text=" {Binding PrecoFormatado}" VerticalTextAlignment="Center"></Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+         <Button x:Name="buttonConfirmar" Text="Confirmar" 
+            Command="{Binding ProximoCommand}"
+            VerticalOptions="End">
+         </Button>
+      
+        
+    </StackLayout>
+</ContentPage>
